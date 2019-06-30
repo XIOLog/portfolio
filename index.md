@@ -28,6 +28,23 @@
 [Пример кода на Codepen](https://codepen.io/xiolog/pen/roWvEK)  
 `Выполнено на js.`
 
+[Небольшая менюшка](https://xiolog.github.io/portfolio/js/menu)
+
+Скрипт генерации меню.  
+**Задача:** создать скрипт с использованием JavaScript.  
+**Решение:** использован принцип ООП.  
+[Пример кода на Codepen](https://codepen.io/xiolog/project/editor/Zpbqkz)  
+`Выполнено на js.`
+
+[Мини-игра](https://xiolog.github.io/portfolio/js/mini-game)
+
+Небольшая игра - кликер.  
+**Задача:** создать небольшую игру с использованием JavaScript.  
+**Решение:** игра создана с помощью addEventListener и функций.  
+`Выполнено на нативном js.`  
+[Пример кода на Codepen](https://codepen.io/xiolog/pen/BgYNKz)  
+`Выполнено на js.`
+
 
 You can use the [editor on GitHub](https://github.com/XIOLog/portfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
