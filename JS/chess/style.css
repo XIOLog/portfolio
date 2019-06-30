@@ -1,0 +1,57 @@
+@font-face {font-family: "Chess Cases";
+    src: url("./fonts/onlinewebfonts.eot");
+    src: url("./fonts/onlinewebfonts.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/onlinewebfonts.woff2") format("woff2"),
+    url("./fonts/onlinewebfonts.woff") format("woff"),
+    url("./fonts/onlinewebfonts.ttf") format("truetype"),
+    url("./fonts/onlinewebfonts.svg#Chess Cases") format("svg");
+}
+
+body {
+    background: #ccc;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+a:hover {
+    color: rgb(26, 118, 211);
+}
+
+.back {
+    text-align: center;
+}
+
+#board {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board > div {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1px;
+    border: 1px solid #888;
+}
+
+.cell {
+    font-weight: bold;
+}
+
+.cellChess {
+    font-family: "Chess Cases" !important;
+    font-size: 30px;
+}

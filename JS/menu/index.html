@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<script>
+		window.onload = function() {
+			const topMenu = new Menu('menu', 'm-block', [
+				new MenuItem('/', 'Главная'),
+				new MenuItem('/catalog', 'Каталог'),
+				new MenuItem('/stocks', 'Акции'),
+				new MenuItem('/about', 'О нас'),
+				new MenuItem('/contacts', 'Контакты'),
+				new Submenu('Поддержка', 'sMenu', 'sm-block', [
+					new MenuItem('/', 'Главная'),
+					new MenuItem('/catalog', 'Каталог'),
+					new MenuItem('/stocks', 'Акции'),
+					new MenuItem('/about', 'О нас'),
+					new MenuItem('/contacts', 'Контакты'),
+				])
+			]);
+
+			let menuApp = document.getElementById('mainMenu');
+			menuApp.innerHTML = topMenu.render();
+
+			document.getElementById('removeMenu').addEventListener('click', function() {
+				topMenu.remove();
+			});
+		};
+	</script>
+</head>
+<body>
+	<div id="mainMenu"></div>
+	<button id="removeMenu">Удалить меню</button>
+
+	<script src="js/Container.js"></script>
+	<script src="js/Menu.js"></script>
+	<script src="js/MenuItem.js"></script>
+	<script src="js/Submenu.js"></script>
+</body>
+</html>
