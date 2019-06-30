@@ -4,6 +4,7 @@
 
 ### Нативный JS
 
+
 [Шахматы](https://xiolog.github.io/portfolio/js/chess)
 
 Скрипт отрисовки шахматной доски с фигурами.  
@@ -17,6 +18,9 @@
 **Задача:** создать скрипт простой фото-галереи.  
 **Решение:** использован addEventListener.  
 `Выполнено на js.`
+
+
+
 
 You can use the [editor on GitHub](https://github.com/XIOLog/portfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
