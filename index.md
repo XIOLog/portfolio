@@ -19,7 +19,13 @@
 **Решение:** использован addEventListener.  
 `Выполнено на js.`
 
+[Мини-магазин](https://xiolog.github.io/portfolio/js/mini-market)
 
+Скрипт обновления корзины.  
+**Задача:** создать скрипт, обновляющий данные в корзине.  
+**Решение:** при нажатии на кнопку "Купить" в блоке товара производится автоматический подсчет количества добавленных позиций товаров и их общая стоимость. Использовано addEventListener.  
+[Пример кода на Codepen](https://codepen.io/xiolog/pen/roWvEK)  
+`Выполнено на js.`
 
 
 You can use the [editor on GitHub](https://github.com/XIOLog/portfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
