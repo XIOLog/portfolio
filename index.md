@@ -4,11 +4,12 @@
 
 ### Нативный JS
 
-#### Шахматы
-
 [Шахматы](https://xiolog.github.io/portfolio/js/chess/index.html)
 
-
+Скрипт отрисовки шахматной доски с фигурами.
+**Задача:** отрисовать шахматную доску с фигурами.
+**Решение:** вместо изображений фигур, использован специальный шрифт.
+`Выполнено на js.`
 
 You can use the [editor on GitHub](https://github.com/XIOLog/portfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
