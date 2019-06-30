@@ -6,7 +6,7 @@
 
 #### Шахматы
 
-
+[Шахматы](https://xiolog.github.io/portfolio/js/chess/index.html)
 
 
 
