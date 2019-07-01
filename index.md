@@ -2,7 +2,7 @@
 
 Здесь я собрал примеры кода моих работ. Большинство проектов, которыми я занимался, носили "закрытый" характер. И, соответственно, в общий доступ я их выкладывать не имею права. Так что... как-то так... :-)  
 
-Некоторые из скриптов и проектов я выложил на CodePen. Как они выглядят можно посмотреть, нажав на название проекта. Там ссылка, да-да... :-)
+Файлы проектов и скрипты размещены на Github. Ссылка на них в описании к каждому проекту. Как ведут себя скрипты можно посмотреть, нажав на название проекта. Там ссылка, да-да... :-)
 
 ## Нативный JS
 
@@ -11,6 +11,7 @@
 Скрипт отрисовки шахматной доски с фигурами.  
 **Задача:** отрисовать шахматную доску с фигурами.  
 **Решение:** вместо изображений фигур, использован специальный шрифт.  
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/chess)  
 `Выполнено на js.`
 
 [Мини-галерея](https://xiolog.github.io/portfolio/js/mini-gallery)
@@ -18,6 +19,7 @@
 Скрипт мини-галереи.  
 **Задача:** создать скрипт простой фото-галереи.  
 **Решение:** использован addEventListener.  
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/mini-gallery)  
 `Выполнено на js.`
 
 [Мини-магазин](https://xiolog.github.io/portfolio/js/mini-market)
@@ -25,7 +27,7 @@
 Скрипт обновления корзины.  
 **Задача:** создать скрипт, обновляющий данные в корзине.  
 **Решение:** при нажатии на кнопку "Купить" в блоке товара производится автоматический подсчет количества добавленных позиций товаров и их общая стоимость. Использовано addEventListener.  
-[Пример кода на Codepen](https://codepen.io/xiolog/pen/roWvEK)  
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/mini-market)  
 `Выполнено на js.`
 
 [Небольшая менюшка](https://xiolog.github.io/portfolio/js/menu)
@@ -33,7 +35,7 @@
 Скрипт генерации меню.  
 **Задача:** создать скрипт с использованием JavaScript.  
 **Решение:** использован принцип ООП.  
-[Пример кода на Codepen](https://codepen.io/xiolog/project/editor/Zpbqkz)  
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/menu)  
 `Выполнено на js.`
 
 [Мини-игра](https://xiolog.github.io/portfolio/js/mini-game)
@@ -41,43 +43,23 @@
 Небольшая игра - кликер.  
 **Задача:** создать небольшую игру с использованием JavaScript.  
 **Решение:** игра создана с помощью addEventListener и функций.  
-`Выполнено на нативном js.`  
-[Пример кода на Codepen](https://codepen.io/xiolog/pen/BgYNKz)  
-`Выполнено на js.`
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/mini-game)  
+`Выполнено на нативном js.`
 
+[Мини-блог](https://mini-blog-js.firebaseapp.com/)
 
-You can use the [editor on GitHub](https://github.com/XIOLog/portfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Простой мини-блог.  
+**Задача:** создать блог с использованием JavaScript.  
+**Решение:** блог создан с использованием ES6, Webpack, Babel, Node.js. На сервисе Firebase была создана БД с постами. Фунционал блога позволяет создавать посты, получать их из БД и добавлять в избранное.  
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/mini-blog)  
+`Выполнено на нативном js.`
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Нативный PHP
 
-### Markdown
+[Кодировщик](https://xiolog.github.io/portfolio/php/encoding)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/XIOLog/portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Скрипт изменения кодировки данных таблицы БД.  
+**Задача:** реализовать изменение кодировки (cp1251 -> utf-8) данных в таблице с 1 млн. записей.  
+**Решение:** организована выборка данных в цикле с установленным лимитом. Производится вставка перекодированных данных в новую таблицу одним запросом. Использовано PDO.  
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/php/encoding)  
+`Выполнено на нативном php.`
