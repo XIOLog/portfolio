@@ -54,6 +54,17 @@
 [Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/mini-blog)  
 `Выполнено на нативном js.`
 
+## Vue.JS
+
+### [Форма](https://xiolog.github.io/portfolio/vue/vue-form)
+
+Простая форма на Vue.js.  
+**Задача:** создать форму на Vue.js и подготовить данные для отправки на сервер.  
+**Решение:** форма создана с использованием @click, v-for и v-model.  
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/vue/vue-form)  
+`Выполнено на нативном js.`
+
+
 ## Нативный PHP
 
 ### Кодировщик
