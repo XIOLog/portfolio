@@ -6,7 +6,7 @@
 
 ## Нативный JS
 
-[Шахматы](https://xiolog.github.io/portfolio/js/chess)
+### [Шахматы](https://xiolog.github.io/portfolio/js/chess)
 
 Скрипт отрисовки шахматной доски с фигурами.  
 **Задача:** отрисовать шахматную доску с фигурами.  
@@ -14,7 +14,7 @@
 [Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/chess)  
 `Выполнено на js.`
 
-[Мини-галерея](https://xiolog.github.io/portfolio/js/mini-gallery)
+### [Мини-галерея](https://xiolog.github.io/portfolio/js/mini-gallery)
 
 Скрипт мини-галереи.  
 **Задача:** создать скрипт простой фото-галереи.  
@@ -22,7 +22,7 @@
 [Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/mini-gallery)  
 `Выполнено на js.`
 
-[Мини-магазин](https://xiolog.github.io/portfolio/js/mini-market)
+### [Мини-магазин](https://xiolog.github.io/portfolio/js/mini-market)
 
 Скрипт обновления корзины.  
 **Задача:** создать скрипт, обновляющий данные в корзине.  
@@ -30,7 +30,7 @@
 [Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/mini-market)  
 `Выполнено на js.`
 
-[Небольшая менюшка](https://xiolog.github.io/portfolio/js/menu)
+### [Небольшая менюшка](https://xiolog.github.io/portfolio/js/menu)
 
 Скрипт генерации меню.  
 **Задача:** создать скрипт с использованием JavaScript.  
@@ -38,7 +38,7 @@
 [Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/menu)  
 `Выполнено на js.`
 
-[Мини-игра](https://xiolog.github.io/portfolio/js/mini-game)
+### [Мини-игра](https://xiolog.github.io/portfolio/js/mini-game)
 
 Небольшая игра - кликер.  
 **Задача:** создать небольшую игру с использованием JavaScript.  
@@ -46,7 +46,7 @@
 [Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/js/mini-game)  
 `Выполнено на нативном js.`
 
-[Мини-блог](https://mini-blog-js.firebaseapp.com/)
+### [Мини-блог](https://mini-blog-js.firebaseapp.com/)
 
 Простой мини-блог.  
 **Задача:** создать блог с использованием JavaScript.  
@@ -56,7 +56,7 @@
 
 ## Нативный PHP
 
-[Кодировщик](https://xiolog.github.io/portfolio/php/encoding)
+### Кодировщик
 
 Скрипт изменения кодировки данных таблицы БД.  
 **Задача:** реализовать изменение кодировки (cp1251 -> utf-8) данных в таблице с 1 млн. записей.  
