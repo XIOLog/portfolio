@@ -62,7 +62,20 @@
 **Задача:** создать форму на Vue.js и подготовить данные для отправки на сервер.  
 **Решение:** форма создана с использованием @click, v-for и v-model.  
 [Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/vue/vue-form)  
-`Выполнено на нативном js.`
+`Выполнено на нативном vue.js.`
+
+### [Ad project SPA](https://ad-proj-app.web.app/)
+
+SPA объявлений 
+**Задача:** Создать SPA объявлений  
+**Решение:** Проект создан с использованием Vue.js + Vuetify. Роль backend\`а выполняет Google Firebase.  
+**Функционал**:
+- регистрация и авторизация пользователей,
+- размещение и редактирование своих объявлений,
+- размещение заявки на покупку  
+
+[Файлы проекта на Github](https://github.com/XIOLog/portfolio/tree/master/vue/ad-project)  
+`Выполнено на Vue.js + Vuetify`
 
 
 ## Нативный PHP
