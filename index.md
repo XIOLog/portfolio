@@ -66,7 +66,7 @@
 
 ### [Ad project SPA](https://ad-proj-app.web.app/)
 
-SPA объявлений 
+SPA объявлений  
 **Задача:** Создать SPA объявлений  
 **Решение:** Проект создан с использованием Vue.js + Vuetify. Роль backend\`а выполняет Google Firebase.  
 **Функционал**:
