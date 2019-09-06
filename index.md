@@ -91,7 +91,7 @@ SPA объявлений
 
 ## Верстка
 
-### Landing page обучающего курса
+### [Landing page обучающего курса](https://xiolog.github.io/portfolio/layout/copy)
 
 Верстка сайта обучающего курса (landing page)  
 **Задача:** сверстать одностраничный сайт обучающего курса  
