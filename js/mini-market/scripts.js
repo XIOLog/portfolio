@@ -12,9 +12,13 @@ function init() {
 }
 
 function addPrice(event) {
-    var price = event.target.previousElementSibling.dataset.price; // Получаем стоимость товара
-    countTotal.innerHTML = Number(countTotal.innerHTML) + 1; // Увеличиваем количество товаров в корзине
-    priceTotal.innerHTML = Number(priceTotal.innerHTML) + Number(price); // Увеличиваем общую стоимость товара в корзине
+
+    if (event.target.tagName === 'BUTTON') {
+        var price = event.target.previousElementSibling.dataset.price; // Получаем стоимость товара
+        countTotal.innerHTML = Number(countTotal.innerHTML) + 1; // Увеличиваем количество товаров в корзине
+        priceTotal.innerHTML = Number(priceTotal.innerHTML) + Number(price); // Увеличиваем общую стоимость товара в корзине
+    }
+    
 }
 
 window.onload = init;
